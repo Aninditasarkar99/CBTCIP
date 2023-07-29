@@ -1,0 +1,208 @@
+body{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin-top: 5%;
+    background-image:linear-gradient(to top, transparent 0%,rgba(73, 21, 80, 0.726), #000000 100%),
+    
+    url('https://wallpapershome.com/images/pages/pic_h/23277.jpg');
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+    color: white;
+    padding: 30px;
+}
+.sign{
+    position:absolute;
+    float: right;
+    text-align: right;
+    top: 5px;
+    right: 20px;
+}
+
+.container{
+    border: 5px solid rgba(227, 223, 235, 0.37);
+    background-color: #ffffff44;
+    height: 320px;
+    width: 490px;
+    display:grid;
+    grid-gap: 10px;
+    padding: 10px;
+    padding-top: 30px;
+    border-radius: 20px;
+    grid-template-columns: 100px 100px 100px 100px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    
+}
+.textme{
+    grid-row: 1/2;
+    grid-column: 1/6;
+    text-align: right;
+    font-size: larger;
+    font-weight: bolder;
+    appearance: none;
+    padding: 10px;
+  background-color: #c2fbd7;
+  border: 0;
+  border-radius: 60px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: green;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+}
+.btn-2{
+    grid-row: 3/4;
+    grid-column: 4/6;
+    align-items: center;
+    padding: 10px;
+  appearance: none;
+  background-color: #c2fbd7;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: green;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: larger;
+  font-weight: bolder;
+
+    
+}
+.btn-3{
+  grid-row:4/5;
+  grid-column: 4/6;
+  align-items: center;
+  appearance: none;
+  padding: 10px;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: larger;
+  font-weight: bolder;
+}
+/* background-image: linear-gradient(-180deg, #FF7E31, #E62C03); */
+
+
+.btn-4{
+  grid-row:  5/6;
+  grid-column:4/6;
+  padding: 10px;
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #FF7E31 0, #E62C03 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+
+
+.btn-1{
+
+  background-color: #c2fbd7;
+  border-radius: 90px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+
+  font-size: larger;
+  font-weight: bolder;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn-1:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}

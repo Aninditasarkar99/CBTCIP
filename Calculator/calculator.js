@@ -10,8 +10,8 @@
  }
 
  function Clear() {
-    var inp = document.getElementById('show');
-    inp.value = '';
+    var clr = document.getElementById('show');
+    clr.value = '';
  }
 
  function Backspace() {

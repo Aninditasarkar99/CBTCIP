@@ -1,9 +1,31 @@
+let backData;
+let calculate=0;
+ 
+ 
  function show(data){
-    let v = document.getElementById('show');
-    v.value += data;
+   
+   notdoubleSign(backData,data);
+
+   backData=data;
     
  }
- function Result() {
+
+function notdoubleSign(backData,data){
+   let vari=document.getElementById('show');
+   if(data==="+" || data==="/" || data ==='*' ||  data==='-' || data==='.' || data==='%'){
+   if( backData==="+" || backData==="/"|| backData ==='*' || backData==='-' || backData==='.'|| backData==='%'){
+ 
+    vari.value= vari.value.slice(0,-1)
+     vari.value += data;
+   }else{
+     vari.value += data;
+   }
+   }else{
+     vari.value += data;
+   }
+ }
+
+ function output() {
     var number1 = document.getElementById('show').value;
     var number2 = eval(number1);
     document.getElementById('show').value = number2;

@@ -33,6 +33,7 @@ const Footer = () => {
                 </div>
 
             </div>
+            <h3>@AninditaSarkar</h3>
             <span className='e'>____----</span> <span className='e'>____----</span> <span className='e'>____----</span>
             </div>
         </div>
